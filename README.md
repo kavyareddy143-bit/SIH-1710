@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
 # Date:
-## Register Number:
-## Name:
+## Register Number:212225240011
+## Name:Annapureddy kavya
 ## Problem Title
 SIH 1710: Enhancing Navigation for Railway Station Facilities and Locations
 ## Problem Description
@@ -11,15 +11,75 @@ Background: Railway stations are complex environments with numerous facilities a
 Ministry of Railway
 
 ## Idea
+```
+Interactive Railway Station Map
+Provide an interactive map of the railway station showing platforms, ticket counters, restrooms, food courts, waiting halls, lifts, escalators and other important facilities.
 
+Smart Navigation
+Allow passengers to select their destination and provide the shortest or most suitable route from their current location.
 
+Voice-Guided Navigation
+Provide voice instructions to help visually impaired passengers navigate inside the railway station.
+
+Accessibility-Based Routes
+Provide accessible routes using lifts, ramps and suitable pathways for elderly passengers and persons with disabilities.
+
+Facility Search
+Users can search for facilities such as toilets, drinking water, restaurants, ticket counters, ATMs and waiting rooms.
+
+Digital Kiosk Support
+Interactive kiosks can be installed at important locations inside the station so passengers can obtain directions without installing the mobile application.
+
+Real-Time Updates
+Railway administrators can update information about platform changes, closed facilities, construction areas and temporary routes.
+
+Railway Service Integration
+The application can be integrated with existing railway services to provide relevant train, platform and station information.
+```
 ## Proposed Solution / Architecture Diagram
 
-
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+![alt text](image-3.png)
 ## Use Cases
-
-
+```
+1. Find platforms and station facilities.
+2. Get the best route to a selected destination.
+3. Get accessible routes using lifts and accessible paths.
+4. Receive voice-guided navigation.
+5. Search facilities such as restrooms, ATMs and food courts.
+6. Use railway station digital kiosks for navigation.
+7. Receive updated station and facility information.
+8. Access emergency and help locations.
+```
 ## Technology Stack
-
+```
+Frontend: React.js, HTML, CSS, JavaScript, Vite
+Mobile: Flutter
+Backend: Java Spring Boot, Python FastAPI
+Database: PostgreSQL
+Real-time: Apache Kafka
+Authentication: OAuth 2.0 / Firebase Authentication
+Voice: Text-to-Speech API
+Tools: VS Code, Git, GitHub, Postman
+Deployment: Docker and Cloud Hosting
+```
 
 ## Dependencies
+```
+Railway station maps and topology data
+Train arrival/departure and platform information
+Real-time or simulated crowd-density data
+Bluetooth beacons and QR markers
+Flutter
+Java Spring Boot
+PostgreSQL
+Apache Kafka
+Python FastAPI
+Text-to-Speech APIs
+OAuth 2.0
+Git and GitHub
+Docker
+Cloud hosting
+```
